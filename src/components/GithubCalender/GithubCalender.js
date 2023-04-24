@@ -45,12 +45,12 @@ function GithubCalenderComp() {
           src={`https://github-readme-stats.vercel.app/api/top-langs/?username=ramanpreet4718&theme=blue-green`}
           alt="mohitkss"
         />
-        <img
+        {/* <img
           id="github-stats-card"
           align="center"
           src={`https://github-readme-streak-stats.herokuapp.com/?user=Ramanpreet4718&theme=blue-green`}
           alt="mohitkss"
-        />
+        /> */}
         <img
           id="github-stats-card"
           align="center"
