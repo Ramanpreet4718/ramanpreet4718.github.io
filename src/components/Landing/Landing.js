@@ -138,6 +138,7 @@ function Landing() {
           src={headerData.image}
           alt=""
           className="landing--img"
+          id="home-img"
           style={{
             opacity: `${drawerOpen ? "0" : "1"}`,
             borderColor: theme.secondary,
