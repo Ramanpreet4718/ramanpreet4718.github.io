@@ -36,7 +36,7 @@ function GithubCalenderComp() {
         <img
           id="github-streak-stats"
           align="center"
-          src={`https://github-readme-stats.vercel.app/api?username=Ramanpreet4718&theme=blue-green&amp;show_icons=true&amp;locale=en`}
+          src={`https://github-readme-streak-stats.herokuapp.com/?user=ramanpreet4718&theme=blue-green&amp;show_icons=true&amp;locale=en`}
           alt="Ramanpreet4718"
         />
         <img
