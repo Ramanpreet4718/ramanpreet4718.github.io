@@ -34,13 +34,21 @@ function GithubCalenderComp() {
       </div>
       <div className="stats-Div">
         <img
+          id="github-streak-stats"
           align="center"
-          src={`https://github-readme-stats.vercel.app/api?username=Ramanpreet4718&amp;show_icons=true&amp;locale=en`}
+          src={`https://github-readme-stats.vercel.app/api?username=Ramanpreet4718&theme=blue-green&amp;show_icons=true&amp;locale=en`}
           alt="Ramanpreet4718"
         />
         <img
+          id="github-top-langs"
           align="center"
-          src={`https://github-readme-streak-stats.herokuapp.com/?user=Ramanpreet4718;`}
+          src={`https://github-readme-stats.vercel.app/api/top-langs/?username=ramanpreet4718&theme=blue-green`}
+          alt="mohitkss"
+        />
+        <img
+          id="github-stats-card"
+          align="center"
+          src={`https://github-readme-streak-stats.herokuapp.com/?user=Ramanpreet4718&theme=blue-green`}
           alt="mohitkss"
         />
       </div>
