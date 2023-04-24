@@ -36,7 +36,11 @@ function Skills() {
             direction="left"
           >
             {skillsData.map((skill, id) => (
-              <div className="skill--box" key={id} style={skillBoxStyle}>
+              <div
+                className="skill--box skills-card"
+                key={id}
+                style={skillBoxStyle}
+              >
                 <img
                   className="skills-card-img"
                   src={skillsImage(skill)}
